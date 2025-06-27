@@ -74,8 +74,7 @@
             <div class="flex">
               <div class="input-wrapper flex-2">
                 <label for="street">Rua</label>
-                <input type="text" id="street" name="street"
-                  value="Rua das Flores" disabled>
+                <input type="text" id="street" name="street" value="Rua das Flores" disabled>
               </div>
               <div class="input-wrapper flex-1">
                 <label for="number">Rua</label>
@@ -85,12 +84,31 @@
             <div class="flex">
               <div class="input-wrapper flex-2">
                 <label for="street">Rua</label>
-                <input type="text" id="city" name="city"
-                  value="São Paulo" disabled>
+                <input type="text" id="city" name="city" value="São Paulo" disabled>
               </div>
               <div class="input-wrapper flex-1">
                 <label for="number">Rua</label>
                 <input value="SP" type="text" id="state" name="state" disabled>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="gardian">
+            <legend>Informações do responsável</legend>
+            <div class="input-wrapper">
+              <label for="gardian">Nome do responsável</label>
+              <input type="text" id="gardian" name="gardian">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(10) 9 8765-4321">
+            </div>
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insira um email válido</span>
               </div>
             </div>
           </fieldset>
